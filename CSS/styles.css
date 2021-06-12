@@ -31,7 +31,6 @@ img {
     margin: 0 auto;
 }
 
-
 .button {
     text-align: center;
 }
@@ -270,27 +269,27 @@ img {
 
 }
 
-.final-stock-description-wrapper {
+.final-stock__description-wrapper {
     flex-basis: 33%;
     max-width: 33%;
     padding:90px 20px 123px 93px;
 }
 
-.final-stock-description-wrapper h3 {
+.final-stock__description-wrapper h3 {
     font-size: 38px;
     line-height: 46px;
     width: 208px;
     margin-bottom: 33px;
 }
 
-.final-stock-description-wrapper a {
+.final-stock__description-wrapper a {
     color: #1A1A1A;
     font-size: 14px;
     line-height: 21px;
     border-bottom:1px solid #1A1A1A;
 }
 
-.final-stock-image-wrapper{
+.final-stock__image-wrapper{
     flex-basis: 67%;
     max-width: 67%;
 }
@@ -402,7 +401,6 @@ img {
     padding: 20px 189px;
 }
 
-
 .end-banner__content h4 {
     width: 850px;
     text-align: center;
@@ -420,7 +418,6 @@ img {
     color: #ffffff;
     padding-bottom: 235px;
 }
-
 
 /*connection section*/
 .connection{
@@ -448,7 +445,6 @@ img {
     padding-bottom: 56px;
 }
 
-
 .connection-wrapper__form-email{
     border: 1px solid #242424;
     width: 354px;
@@ -463,71 +459,71 @@ img {
     width: 66px;
     height: 54px;
     padding: 17px 10px;
-
 }
+
 /*footer section*/
 footer {
     padding: 85px 0;
     background-color: #F7F7F7;
 }
 
-.footer__content {
+.footer__navigation {
     display: flex;
     justify-content: space-between;
     color: #1A1A1A;
     flex-basis: 50%
 }
 
-.footer__content-left-column-1, .footer__content-left-column-2 {
+.footer__navigation-column-1, .footer__navigation-column-2 {
     flex-basis: 50%;
 }
 
-.footer__content-left {
+.footer__column-left {
     display: flex;
     justify-content: space-between;
 }
 
-.footer__content-right {
+.footer__column-right {
     flex-basis: 50%;
 }
 
-.footer__content-list {
+.footer__navigation-list {
     width: 300px;
 }
 
-.footer__content-list li {
+.footer__navigation-list li {
     font-size: 15px;
     line-height: 15px;
     margin-bottom: 15px;
 }
 
-.footer__link {
+.footer__navigation-link {
     color: #000;
 }
 
-.footer__content-right-copyright {
+.footer__copyrights {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 35px;
 }
 
-.footer__logo {
+.footer__copyrights-logo {
     width: 54px;
     height: 88px;
     margin-left: 24px;
 }
 
-.footer__content-right-text {
+.footer__copyrights-text {
     max-width: 210px;
     text-align: end;
 }
 
-.footer__contacts {
+.footer__socials {
     display: flex;
     justify-content: flex-end;
 }
 
-.footer__contacts a {
+.footer__socials a {
     width: 30px;
     height: 26px;
     margin-left: 16px;
